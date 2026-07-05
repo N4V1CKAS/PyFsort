@@ -3,8 +3,9 @@
 A Python script that automatically sorts files in a folder into subfolders by file extension.
 
 ## Usage
-python pyfsort.py
-Then enter the path to the folder you want to sort when prompted.
+1. python pyfsort.py
+
+2. Then enter the path to the folder you want to sort when prompted.
 
 ## What it does
 - Scans a folder for files
