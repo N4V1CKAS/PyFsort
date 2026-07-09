@@ -1,17 +1,35 @@
-# PyFsort
+# 📂 PyFsort
 
-A Python script that automatically sorts files in a folder into subfolders by file extension.
+A clean file sorter built with Python and CustomTkinter. Automatically organizes files into folders by their extension.
 
-## Usage
-1. python pyfsort.py
+<img src="images/icon.ico" alt="icon" width="100">
 
-2. Then enter the path to the folder you want to sort when prompted.
-
-## What it does
-- Scans a folder for files
-- Creates subfolders named after each file extension
+## ✨ Features
+- Browse and select any folder with a single click
+- Automatically creates subfolders named after file extensions (e.g., .txt, .jpg)
 - Moves files into the correct subfolder
 - Skips files that are already sorted
+- Console log shows real-time progress of sorting
 
-## Built with
-Python 3.12
+## 📸 Screenshot
+<img src="images/PyFsort_Preview.PNG" alt="Preview" width="300">
+
+## 🚀 How to Run
+
+**Option 1 - As Python Script**
+```bash
+1. pip install -r requirements.txt
+2. python PyFsort.py
+```
+
+**Option 2 - Standalone Executable**
+
+1. Download the latest `.exe` from [Releases](../../releases) and run it.
+
+## 🛠️ Tech Stack
+- Python 3
+- CustomTkinter
+- Standard library (os, shutil)
+
+## 📄 License
+This project is open source and available under the MIT License.
